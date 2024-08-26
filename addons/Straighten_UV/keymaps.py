@@ -1,0 +1,26 @@
+keys = {
+
+    'UV_STRAIGHTEN': [
+        {'label': 'straighten line uv(→)', 'keymap': 'UV Editor', 'idname': 'uv.straighten_line_uv',
+         'type': 'D', 'value': 'PRESS', 'alt': True, 'properties': [('Axis', 'MAX_U')]},
+        {'label': 'straighten line uv(←)', 'keymap': 'UV Editor', 'idname': 'uv.straighten_line_uv',
+         'type': 'A', 'value': 'PRESS', 'alt': True, 'properties': [('Axis', 'MIN_U')]},
+        {'label': 'straighten line uv(↑)', 'keymap': 'UV Editor', 'idname': 'uv.straighten_line_uv',
+         'type': 'W', 'value': 'PRESS', 'alt': True, 'properties': [('Axis', 'MAX_V')]},
+        {'label': 'straighten line uv(↓)', 'keymap': 'UV Editor', 'idname': 'uv.straighten_line_uv',
+         'type': 'S', 'value': 'PRESS', 'alt': True, 'properties': [('Axis', 'MIN_V')]},
+        {'label': 'unwrap island uv', 'keymap': 'UV Editor', 'idname': 'uv.unwrap_island_uv',
+         'type': 'ONE', 'value': 'PRESS', 'alt': True,},
+        {'label': 'unwrap selected uv', 'keymap': 'UV Editor', 'idname': 'uv.unwrap_selected_uv',
+         'type': 'TWO', 'value': 'PRESS', 'alt': True,},
+        # {'label': 'Vertex Paint Mode', 'keymap': 'Vertex Paint', 'space_type':'VIEW_3D', 'idname': 'paint.color_picker', 'type': 'SPACE', 'value': 'PRESS',
+        #  },
+        # {'label': 'UV Paint Mode', 'keymap': 'Image Generic','space_type':'IMAGE_EDITOR',   'idname': 'paint.color_picker', 'type': 'Z','value': 'PRESS', },
+        # {'label': 'UV Paint Mode', 'keymap': 'Image Generic',   'idname': 'paint.color_picker', 'type': 'Z','value': 'PRESS', },
+        # # {'label': 'Node Mode', 'keymap': 'Node editor','space_type':'NODE_EDITOR',   'idname': 'paint.color_picker', 'type': 'Z','value': 'PRESS', },
+        # {'label': 'Sculpt Paint Mode', 'keymap': 'Sculpt', 'idname': 'paint.color_picker', 'type': 'SPACE',
+        #  'value': 'PRESS',},
+        # {'label': '3D Paint Mode', 'keymap': 'Grease Pencil', 'idname': 'paint.color_picker', 'type': 'SPACE',
+        #  'value': 'PRESS', },
+    ],
+}
